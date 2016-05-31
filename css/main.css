@@ -84,8 +84,8 @@ p{
 	margin:0;
 }
 #mc_embed_signup .button {
-	color:blue!important;
-	font-size:52px;
+	font-size:10px!important;
+	padding: 2px;
 }
 .text{
 	width: 100%;
