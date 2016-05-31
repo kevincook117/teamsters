@@ -77,7 +77,12 @@ p{
 	margin: 0px;
 	height: 300px;
 }
-
+.side-box form{	
+	width:100%;
+}		
+.side-box form input{
+	margin:0;		
+}		
 .text{
 	width: 100%;
 	/*background-color: #e3f1fe;*/
