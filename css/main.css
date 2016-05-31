@@ -75,7 +75,7 @@ p{
 	font-color: black;
 	padding: 2px;
 	margin: 0px;
-	height: 350px;
+	height: 300px;
 }
 .side-box form{
 	width:100%;
@@ -83,7 +83,10 @@ p{
 .side-box form input{
 	margin:0;
 }
-
+#mc_embed_signup .button {
+	color:blue;
+	font-size:52px;
+}
 .text{
 	width: 100%;
 	/*background-color: #e3f1fe;*/
