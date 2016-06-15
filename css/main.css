@@ -126,20 +126,8 @@ p{
 .container{
 	height:auto;
 }
-.footer{
-	width: 100%;
-	height: auto;
-	clear:both;
-	position: relative;
-	display:block;
-	background-color: #00529C;
-	text-align: center;
-	color:white;
-	padding: 20px;
-}
-.footer p{
-	padding: ;
-}
+
+
 h1{
 	width:100%;
 	font-size: 4vw;
@@ -173,6 +161,12 @@ h6{
 	font-weight:bold;
 	text-align: left;
 	margin: 10px 0px 0px 0px;
+}
+.button{
+	background-color:#00529C;
+}
+.iconsize{
+	font-size: 24px;
 }
 #feed{
 	width:100%;
@@ -257,7 +251,54 @@ h6{
 #officers, #trustees, #officemanager{
 	border-bottom: 2px solid #00529C;
 }
-
+.footer{
+	width: 100%;
+	height: auto;
+	clear:both;
+	position: relative;
+	display:block;
+	background-color: #00529C;
+	text-align: center;
+	color:white;
+	padding: 20px;
+}
+.bold{
+	font-weight:bold;
+}
+.footer-nav a{
+	color:#2199e8;
+}
+.footer-nav a:hover{
+	text-decoration: underline;
+}
+.footer-nav p{
+	color: #2199e8;
+}
+.footer-nav a:visited{
+	color:#2199e8;
+}
+.verticalLine {
+    /*border-left: 0.5px solid #004480;*/
+}
+.footer-nav div{
+	min-height: 191px;
+}
+.footer-nav{
+	text-align:left;
+}
+.footer-nav ul{
+	list-style: none;
+}
+#copyright{
+	text-align:left;
+}
+#creator{
+	text-align:center;
+	margin-top: 10px;
+}
+.bannerimg img{
+	
+}
 @media only screen and (max-width: 1023px){
 	#news, #newsletter{
 		display:none;
@@ -276,6 +317,12 @@ h6{
 	.container{
 		width: 95%;
 	}
+	.footer-nav div{
+	min-height: initial;
+	}
+	#creator{
+		text-align: left;
+	}
 }
 @media only screen and (max-width: 639px){
 	#calendar, #events{
@@ -284,6 +331,7 @@ h6{
 	h1{
 		font-size: 8vw;
 	}
+	
 	.staff-float{
 		float:none;
 		padding: 5px;
@@ -291,6 +339,9 @@ h6{
 	}
 	.dt-only{
 		display:none;
+	}
+	.footer{
+		overflow: auto;
 	}
 }
 
