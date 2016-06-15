@@ -9,7 +9,6 @@ body{
 body p{
 	line-height: 1.3;
 }
-
 section{
 	width: 100%;
 	height: auto;
@@ -75,17 +74,15 @@ p{
 	border-radius: 5px;
 	font-color: black;
 	padding: 2px;
-
 	margin: 0px;
-	height: 300px;
+	height: auto;
 }
-.side-box form{
+.side-box form{	
 	width:100%;
-}
+}		
 .side-box form input{
-	margin:0;
-}
-
+	margin:0;		
+}		
 .text{
 	width: 100%;
 	/*background-color: #e3f1fe;*/
